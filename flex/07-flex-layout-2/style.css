@@ -5,23 +5,46 @@ body {
 }
 
 .header {
-  height: 72px;
+  display: flex; /**/
+  height: 40px; /**/
+  align-items: center; /**/
+  padding: 10px; /**/
   background: darkmagenta;
   color: white;
 }
 
+.content { /**/
+  display: flex;
+}
+
 .footer {
-  height: 72px;
+  display: flex; /**/
+  justify-content: center; /**/
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
+  display: flex;
   width: 300px;
+  height: 500px;
   background: royalblue;
 }
 
+.cards { /**/
+  display: flex;
+  height: 200px;
+  width: 1000px;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .card {
+  width: 250px; /**/
+  height: 200px;
+  padding: 10px;
+  font-size: small;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
